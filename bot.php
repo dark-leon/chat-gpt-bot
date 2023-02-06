@@ -5,7 +5,7 @@ require_once 'db.php';
 
 $db = new DB();
 
-const ADMIN_ID = 778912691; //editted
+const ADMIN_ID = 778912691; //editted  22222
 const SECONDADMIN_ID = 2100460287; //editted
 try {
     $bot = new \TelegramBot\Api\Client('6067817482:AAGoZ0axiOdCdPnA1epkXAW0qfeg3-SiJgw');
