@@ -16,7 +16,7 @@ try {
         if (!$db->checkUser($chat_id)) {
             $db->insert($message);
         }
-        $bot->sendMessage($chat_id, 'Hello, welcome to AI Bot');
+        $bot->sendMessage($chat_id, 'Hello, welcome to AI Bot @Rakhim_dev');
     });
 
     $bot->command('users', function ($message) use ($bot, $db) {
