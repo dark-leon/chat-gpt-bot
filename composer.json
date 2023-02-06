@@ -1,0 +1,7 @@
+{
+    "require": {
+        "telegram-bot/api": "^2.3",
+        "openai-php/client": "^0.3.0",
+        "jajo/jsondb": "^3.0"
+    }
+}
